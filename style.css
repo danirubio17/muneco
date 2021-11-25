@@ -1,0 +1,124 @@
+
+/* Declaring custom properties */
+* {
+  box-sizing: border-box;
+}
+
+#fondo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+
+  background-color: white;
+  border: thin solid gray;
+
+  z-index: -3;
+}
+
+.muneco {
+  /* centramos verticalmente la patata */
+  position: relative;
+
+  margin: 0 auto;
+  /* fin centrar verticalmente la patata */
+  border: thin solid green;
+  height: 30em;
+  width: 30em;
+
+}
+
+.ojos {
+  position: absolute;
+  height: 150px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  background-color: red;
+  border: thin solid red;
+}
+
+.ojo {
+  position: relative;
+  width: 125px;
+  height: 150px;
+  background-color: black;
+  border: thin solid black;
+  border-radius: 70%;
+
+}
+
+.pupila {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+
+  background-color: white;
+  border: thin solid black;
+  border-radius: 70%;
+  width: 60px;
+  height: 60px;
+}
+
+.ojo-lt {
+  position: absolute;
+  top: 1em;
+  left: 1em;
+  top: 0;
+}
+
+.ojo-rt {
+  position: absolute;
+  top: 1em;
+  right: 1em;
+  top: 0;
+}
+
+.pies {
+  position: absolute;
+  height: 100px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+
+  bottom: 0;
+  background-color: blue;
+  border: thin solid blue;
+  border-color: blue;
+
+  z-index: -1;
+}
+
+.pie-i {
+  position: relative;
+  width: 200px;
+  height: 100px;
+  top: 475px;
+  right: 200px;
+  background-color: red;
+  border: thin solid red;
+}
+
+.pie-d {
+  position: relative;
+  width: 200px;
+  height: 100px;
+  left: 477px;
+  top: 375px;
+  background-color: red;
+  border: thin solid red;
+}
+.cuerpo {
+  position: relative;
+  width: 478px;
+  height: 228px;
+  left: 0px;
+  bottom: 50px;
+  background-color: red;
+  border: thin solid red;
+}
