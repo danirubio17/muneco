@@ -105,7 +105,6 @@
 
   bottom: 0;
   background-color: blue;
-  border: thin solid blue;
   border-color: blue;
 
   z-index: -1;
@@ -125,7 +124,6 @@
   top: 600px;
   right: 99px;
   background-color: red;
-  border: thin solid red;
   border-top-left-radius: 30px;
   border-top-right-radius: 0px;
   border-bottom-right-radius: 0px;
@@ -146,7 +144,6 @@
   left: 329px;
   top: 500px;
   background-color: red;
-  border: thin solid red;
   border-top-left-radius: 0px;
   border-top-right-radius: 30px;
   border-bottom-right-radius: 30px;
@@ -166,7 +163,6 @@
   left: 0px;
   bottom: 50px;
   background-color: red;
-  border: thin solid red;
   animation: venom 5s linear 1s infinite alternate;
 }
 
@@ -184,7 +180,7 @@
   left: 0px;
   bottom: 0px;
   background-color: blue;
-  border: thin solid blue;
+
 
   animation: venom 5s linear 1s infinite alternate;
 }
@@ -201,7 +197,7 @@
   left: 378px;
   bottom: 0px;
   background-color: blue;
-  border: thin solid blue;
+
 
   animation: venom 5s linear 1s infinite alternate;
 }
@@ -345,7 +341,6 @@
   top: 225px;
   right: 420px;
   background-color: red;
-  border: thin solid red;
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
   border-bottom-right-radius: 50px;
@@ -367,7 +362,6 @@
   top: 225px;
   left: 420px;
   background-color: red;
-  border: thin solid red;
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
   border-bottom-right-radius: 50px;
